@@ -5,8 +5,6 @@ public class Cliente {
     List<Atuendo> atuendos = new ArrayList<>();
 
     public void nuevoAtuendo(Atuendo unAtuendo){
-        if(unAtuendo.esValido()){
-            atuendos.add(unAtuendo);
-        }
+        atuendos.add(unAtuendo);
     }
 }

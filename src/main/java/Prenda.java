@@ -1,19 +1,29 @@
 public class Prenda {
     private Categoria categoria;
     private Tipo tipo;
-    private String tela;
+    private Tela tela;
     private String colorPrimario;
     private String colorSecundario;
 
-    public Prenda (Categoria categoria, Tipo tipo, String tela, String colorPrimario, String colorSecundario){
-        this.categoria = categoria;
+    public Prenda(Tipo tipo, Tela tela){
         this.tipo = tipo;
         this.tela = tela;
+    }
+
+    public void setCategoria(Categoria categoria){
+        this.categoria = categoria;
+    }
+
+    public void setColorPrimario(String colorPrimario){
         this.colorPrimario = colorPrimario;
+    }
+
+    public void setColorSecundario(String colorSecundario){
         this.colorSecundario = colorSecundario;
     }
+
     public boolean prendaCompleta(){
-        return !tela.isEmpty() && !colorPrimario.isEmpty() && tipo != null && categoria != null;
+        return tela != null && !colorPrimario.isEmpty() && tipo != null && categoria != null;
     }
 
     public boolean categoriaCorrecta(){

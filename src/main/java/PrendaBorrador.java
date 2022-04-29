@@ -27,7 +27,6 @@ public class PrendaBorrador {
             this.trama = trama;
         }
     }
-
     public void elegirMaterial(String material){
         this.material = Objects.requireNonNull(material);
     }
@@ -39,7 +38,6 @@ public class PrendaBorrador {
     public void elegirColorSecundario(String colorSecundario){
         this.colorSecundario = Objects.requireNonNull(colorSecundario);
     }
-
     
     public Prenda crearPrenda(){
         return new Prenda(categoria, tipo, trama, material, colorPrimario, colorSecundario);

@@ -13,7 +13,7 @@ public enum Tipo {
 
 
     private Categoria categoria;
-    private Tipo(Categoria categoria){
+    Tipo(Categoria categoria){
         this.categoria = categoria;
     }
 

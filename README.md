@@ -9,7 +9,9 @@
 
 # Iteración 2
 
-1) Como ahora hay que asegurarse que una prenda sea valida antes de poder agregarla a un atuendo elimine el método esValido, y verifico que la prenda sea valida al momento de querer agregarla en el método nuevaPrenda.
-2) Uso un enum para las tramas porque ya se sabe cuales van a ser, creo igual que podría ser valido usar String.
+1) Uso un enum para las tramas porque ya se sabe cuales van a ser, creo igual que podría ser valido usar String.
+2) En un principio intente usar un solo método para la validación de las variables de PrendaBorrador pero me ocaciono inconveniente al momento de tener que crear la prenda, por lo cual termine optando por validar en el momento que seteo las variables.
+3) Los métodos con los cuales corroboraba que una prenda sea valida los saque de la clase Prenda y los pase a PrendaBorrador, ya que para poder crear la prenda necesitaba que esta misma este completa.
+4) Al inicio de la iteración había creado una clase llamada Tela donde se aclararia la trama, material y color, luego opte por borrar la clase.
 
-![Screenshot 2021-04-10 03-49-00](https://i.imgur.com/ssflakx.png)
+![Screenshot 2021-04-10 03-49-00](https://i.imgur.com/KSCdv3z.png)

@@ -1,14 +1,16 @@
+package Prenda;
+
 public class Prenda {
     private Categoria categoria;
-    private Tipo tipo;
+    private TipoPrenda tipoPrenda;
     private Trama trama;
     private String material;
     private String colorPrimario;
     private String colorSecundario;
 
-    Prenda(Categoria categoria, Tipo tipo, Trama trama, String material, String colorPrimario, String colorSecundario){
+    Prenda(Categoria categoria, TipoPrenda tipoPrenda, Trama trama, String material, String colorPrimario, String colorSecundario){
         this.categoria = categoria;
-        this.tipo = tipo;
+        this.tipoPrenda = tipoPrenda;
         this.trama = trama;
         this.material = material;
         this.colorPrimario = colorPrimario;

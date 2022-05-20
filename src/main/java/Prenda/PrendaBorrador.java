@@ -1,19 +1,21 @@
+package Prenda;
+
 import java.util.Objects;
 
 public class PrendaBorrador {
     private Categoria categoria;
-    private Tipo tipo;
+    private TipoPrenda tipoPrenda;
     private Trama trama = Trama.LISA;
     private String material;
     private String colorPrimario;
     private String colorSecundario;
 
-    PrendaBorrador(Tipo tipo){
-        this.tipo = Objects.requireNonNull(tipo);
+    PrendaBorrador(TipoPrenda tipoPrenda){
+        this.tipoPrenda = Objects.requireNonNull(tipoPrenda);
     }
 
     public boolean categoriaCorrecta(){
-        return categoria == tipo.getCategoria();
+        return categoria == tipoPrenda.getCategoria();
     }
 
     public void elegirCategoria(Categoria categoria){
@@ -40,6 +42,6 @@ public class PrendaBorrador {
     }
     
     public Prenda crearPrenda(){
-        return new Prenda(categoria, tipo, trama, material, colorPrimario, colorSecundario);
+        return new Prenda(categoria, tipoPrenda, trama, material, colorPrimario, colorSecundario);
     }
 }

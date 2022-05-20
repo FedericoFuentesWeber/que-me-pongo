@@ -1,5 +1,7 @@
 package Prenda;
 
+import Clima.Clima;
+
 public class Prenda {
     private Categoria categoria;
     private TipoPrenda tipoPrenda;
@@ -17,4 +19,12 @@ public class Prenda {
         this.colorSecundario = colorSecundario;
     }
 
+    public Categoria getCategoria(){
+        return categoria;
+    }
+
+    public boolean acordeATemperatura(Clima clima){
+        return clima.getTempeartura() >= tipoPrenda.getTemperaturaMinima() &&
+            clima.getTempeartura() <= tipoPrenda.getTemperaturaMaxima();
+    }
 }

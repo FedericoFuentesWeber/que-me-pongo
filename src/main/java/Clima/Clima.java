@@ -14,4 +14,8 @@ public class Clima {
     this.tempeartura = (Integer) temperature.get("Value");
     this.probabilidadDeLluvia = (float) condicionesClimaticas.get(0).get("PrecipitationProbability");
   }
+
+  public Integer getTempeartura(){
+    return tempeartura;
+  }
 }

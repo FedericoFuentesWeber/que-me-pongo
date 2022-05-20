@@ -1,10 +1,11 @@
 package Clima;
 
-public class BuenosAires {
-  private String nombreCiudad = "Buenos Aires";
+public class Ciudad {
+  private String nombreCiudad;
   private Clima clima;
 
-  public BuenosAires(){
+  public Ciudad(String nombreCiudad){
+    this.nombreCiudad = nombreCiudad;
     this.clima = new Clima(nombreCiudad);
   }
 

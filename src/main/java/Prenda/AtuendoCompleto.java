@@ -1,6 +1,6 @@
 package Prenda;
 
-public class AtuendoCompleto {
+abstract class AtuendoCompleto {
 
   private Prenda prendaSuperior;
   private Prenda prendaInferior;

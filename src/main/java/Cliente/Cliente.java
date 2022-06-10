@@ -33,7 +33,7 @@ public class Cliente {
     otraPersona.nuevoGuardarropa(guardarropaCompartido);
   }
 
-  public void propocicionSobreRopa(Guardarropa guardarropa, Command nuevoCommand) {
+  public void proposicionSobreRopa(Guardarropa guardarropa, Command nuevoCommand) {
     guardarropa.agregarCommand(nuevoCommand);
   }
 

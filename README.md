@@ -1,8 +1,10 @@
 # Que me pongo
-# Iteración 4
+# Iteración 5
 
-1. Agrego la clase abstracta AtuendoCompleto para asegurarme que todos los atuendo tengan una prenda por categoría.
-2. La clase Atuendo ahora hereda de AtuendoCompleto cosa de que a futuro se puedan seguir agregando prendas de ser necesario.
+1. Opte por utilizar un command pattern para aceptar y rechazar las prendas tentativas.
+2. Una de las opciones que considere al momento de crear los guardarropas fue la de tener una variable donde se registrara que clientes compartian dicho guardarropas pero demasiado al tener el cuenta que los clientes ya van a tener la lista de los guardarropas que tienen.
+3. Al tener cada cliente su lista de guardarropas es muy simple el hecho de compartirlos ya que simplemente se elige el guardarropas que se quiere compartir y se lo agrega a la lista del nuevo cliente de esta forma ambos tendran el guardarropas y podran efectuar cambios sobre el mismo.
 
 
-![Screenshot 2021-04-10 03-49-00](https://i.imgur.com/OPbW2Ph.png)
+
+![Screenshot 2021-04-10 03-49-00](https://www.planttext.com/api/plantuml/png/hLTDR-Cs4BthLn0vAOKTPDEcAD2j45PM2nTof9MS5jtBWfOPXuKi2XGLBDBjV-_mGoAbsC4U5Z1iSlZu-6Q67D9tdIH2ziSw22IJDKKVDZbQejiWg6hITGXN_L-Ko2SgSBx-Dq0ePPrylo7j-r8ArXmMADlzGoiPHUX0fOM6PWnLhD-J_MNmty0MQuEYiOY67tU26ZDOuveT2QhKD_JW0vpQ5leaog0uresa1ogGfCUM2Y9xeMOzrfn8r0g-8pjMCo1UqRJkdvcZtBe9XfZiEYb89P5rMlQqsVEO7zkQIgxMoWLO2D2gdxA7wOoBkNtTFCxi5QbVo9ux0wagsd40EN_iQcDm3JAod9rHtVJqcPYHq59vfaj0a8gBFSMrYPSNIIzq1lqh5m942RLYJ226e4T9jIsmRbdBxIfoR2gx8C0gzVSlfdULhali4de45k2edQNYDHUv027Awwcvf5KFp6O0FgE662J2hbBfGOZMzC34g3GyeTd1jAZG4-g6DbORR4zVghU4BpKyfN-6TVh3qsufV2Ke4JPrht9n9WS_VrqIlbNSrJ4Rm-jj9l-Wp7SKRVgZawxF22wsoQVo8K-ATLQCXlNzRuCXnkb7lCgWXUCuAJCmZrJENHqJl85zvL9zDILVe7S_BT3trqfhaMoIuateZm2zlTI2xhSupUvVWGUD0BvUe1iD_ZCfDWyhNBu1lhaUc3_Y76yp7sjz1SRRWL63rccAp-ACHw0ooVx8oayhS2DBFV0ODYFq1msFCw0iJgDkh3jZbDMsqQN67Di2_urNgf4-tECYAHNT0ruLcMebvHPlSfKml_XIABiwHRfgso8_52zRp294JACxEr3sKBkPX_Yz9mBsfE0j5B-3wtWLa5kMqFuEP9V3kCSHUcsVJXz9gEnmxJ7XORhG-eOudAsSYeutP87Ei7InfJ2BmtNJyevLZ3SbXnkjU4F00i7S8sdsHhBjA9PEXOGs5IChEhk3vXuFqVCAYhVSkRiaQPBQWyrHp-0qU80RgQ-n5VN1tHdEBSICIFPCkfm8WW-27eZuAko7daa7jN68K0qz283js-mJmskDuRa8mXtUavgz494Qbdo-i2rlj9MgAFEsfu0pLhXndiZBA_EUTaymmJDZFNslno7yJCNh4I13ObNuwMUeiP9g1YYlHiSemxy839lmvjvno0HabvwUwGFSCYDVOTtuPeIp2OfmntbDIMFpEiHZ_XwobpflzlfaO9sSQKIcwHWjBXNksZGNqDLLD7sK1hOENRoxM2uZypeCWk6uB9TVelbxRXnKN0RluD75TnVMYo2mtWpKumjfQdStrtn0tz7JHvTUT8fsCeAX11a2a6A5pGRiWtaqWcIrdd-qXp5DRdP24FWLQPXajPmQ6kRDDe0IuKyDfZiOblpYvix6fbD7oc2sQQSSyy5p9C4TzE6_pFy0)
